@@ -1,0 +1,28 @@
+body{
+    direction: rtl;
+    font-family: iransans, persianDigits , serif !important;
+    .dir-left{
+        direction: ltr;
+    }
+    .main-section {
+      a{
+          &:hover{
+              text-decoration: unset;
+  
+          }
+      }
+      
+.opacity-0{
+  opacity: 0;
+}
+    }
+//changeing default py2 to .7rem
+ $spacer: 1rem !default;
+ $spacers: () !default;
+  $spacers: map-merge(
+   (
+      2: ($spacer * .7), 
+    ),
+   $spacers
+  );
+}
